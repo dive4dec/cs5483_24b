@@ -1,19 +1,24 @@
 # Core modules (mandatory)
-jupyterlite-core==0.4.1
-jupyterlab~=4.2.5
-notebook~=7.2.2
+jupyterlite-core==0.4.*
+jupyterlab==4.2.*
+notebook==7.2.*
 
 
 # Python kernel (optional)
-jupyterlite-pyodide-kernel==0.4.2
+jupyterlite-pyodide-kernel==0.4.*
+jupyterlite_xeus==2.1.*
 
 # JavaScript kernel (optional)
-jupyterlite-javascript-kernel==0.3.0
+jupyterlite-javascript-kernel==0.3.*
 
 # Language support (optional)
 jupyterlab-language-pack-fr-FR
 jupyterlab-language-pack-zh-TW
 jupyterlab-language-pack-zh-CN
+
+# Tools
+jupyterlab-codestral==0.1.*
+litegitpuller==0.3.*
 
 
 # JupyterLab: dark theme
@@ -38,15 +43,9 @@ bqplot
 
 # ipydrawio
 # ipydrawio-widgets
-jupyterlab-deck>=0.2.0
-jupyterlab-myst>=2.1.0
-jupytext>=1.16.1
-ghp-import
+jupyterlab-deck==0.2.*
+jupyterlab-myst==2.4.*
+jupytext==1.16.*
 
 # DIVE
-# dive-jupyterlite-xeus-python
-jupyterlab_filesystem_access
-# jupyterlab-webrtc-docprovider
 divewidgets
-# divemathjax3
-# divemarkdownit

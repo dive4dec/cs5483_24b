@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir content
           find . -maxdepth 1 -mindepth 1 ! -name 'content' ! -name '.*' -exec mv -t content/ {} +
-          jupyter lite build --contents content --output-dir dist
+          jupyter lite build --contents content --output-dir dist --XeusAddon.environment_file=.jupyterlite/environment.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
