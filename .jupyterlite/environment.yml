@@ -5,5 +5,9 @@ channels:
   - dive
 dependencies:
   - xeus-python
-  - numpy
+  - xeus-lua
+  - xeus-sqlite
   - divewidgets
+  - numpy
+  - pandas
+  - scikit-learn
