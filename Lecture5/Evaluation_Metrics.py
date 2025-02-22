@@ -193,7 +193,7 @@ def _(mo):
                 - Specificity is $\frac{\op{TN}}{N}$ where $N = \op{TN} + \op{FP}$.  
                   True negative rate (TNR)
                 - Accuracy is 
-                \frac{\op{TP} + \op{TN}}{n} = \frac{P \cdot \op{TPR} + N \cdot \op{TNR}}{n} = \frac{P}{n} \op{TPR} + \frac{N}{n} \op{TNR}\frac{\op{TP} + \op{TN}}{n} = \frac{P \cdot \op{TPR} + N \cdot \op{TNR}}{n} = \frac{P}{n} \op{TPR} + \frac{N}{n} \op{TNR}
+                  $$\frac{\op{TP} + \op{TN}}{n} = \frac{P \cdot \op{TPR} + N \cdot \op{TNR}}{n} = \frac{P}{n} \op{TPR} + \frac{N}{n} \op{TNR}$$
                 - Accuracy > recall iff $\op{TNR} \geq \op{TPR}$.
                 - Accuracy = recall iff ______________________________________________________
                 """
@@ -244,7 +244,7 @@ def _(mo):
                 - Cost/benefit analysis
                     - Different per unit cost/benefit assigned to FP, FN, TP, and TN.
                     - Minimize total cost or maximize total benefit.
-                      \op{Cost} = \op{FP} \cdot \op{Cost}_{\op{FP}} + \op{FN} \cdot \op{Cost}_{\op{FN}} + \op{TP} \cdot \op{Cost}_{\op{TP}} + \op{TN} \cdot \op{Cost}_{\op{TN}}\op{Cost} = \op{FP} \cdot \op{Cost}_{\op{FP}} + \op{FN} \cdot \op{Cost}_{\op{FN}} + \op{TP} \cdot \op{Cost}_{\op{TP}} + \op{TN} \cdot \op{Cost}_{\op{TN}}
+                      $$\op{Cost} = \op{FP} \cdot \op{Cost}_{\op{FP}} + \op{FN} \cdot \op{Cost}_{\op{FN}} + \op{TP} \cdot \op{Cost}_{\op{TP}} + \op{TN} \cdot \op{Cost}_{\op{TN}}$$
                 """
             ),
         ]
